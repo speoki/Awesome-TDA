@@ -1,3 +1,4 @@
+* [🇨🇳 中文](/)
 * [Home](/en/)
 * Core Resources
   * [Software Packages](01_software_packages.md)
