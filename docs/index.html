@@ -10,6 +10,8 @@
 
     <!-- Docsify主题 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <!-- 侧边栏折叠样式 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css">
 
     <style>
         :root {
@@ -25,6 +27,16 @@
         .app-name-link img {
             width: 2rem;
         }
+
+        /* 移除侧边栏列表符号 */
+        .sidebar-nav ul li {
+            list-style-type: none;
+            margin: 0;
+        }
+
+        .sidebar-nav ul {
+            padding-left: 0;
+        }
     </style>
 </head>
 
@@ -38,6 +50,7 @@
             loadSidebar: true,
             loadNavbar: true,
             subMaxLevel: 3,
+            sidebarDisplayLevel: 1, // 默认折叠所有层级
             auto2top: true,
 
             // 搜索插件配置
@@ -93,6 +106,9 @@
 
     <!-- Zoom图片 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+    <!-- 侧边栏折叠插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 
 </html>
