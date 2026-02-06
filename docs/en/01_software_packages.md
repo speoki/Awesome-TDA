@@ -158,11 +158,67 @@ This page collects major TDA software packages, libraries, and tools.
 - **Link**: https://github.com/bdjones13/flagser-laplacian
 - **Description**: Computes persistent spectra of directed flag complexes using persistent topological Laplacian
 
-## R Language TDA
+## Distributed & Scalable Computation
 
-### TDAverse
-- **Link**: https://github.com/tdaverse/tdaverse
-- **Description**: TDA ecosystem for R
+### SparkTDA
+- **Link**: https://github.com/ognis1205/spark-tda
+- **Description**: Scalable Topological Data Analysis package for Apache Spark
+- **Features**:
+  - Scalable Reeb Graph (Reeb Cosine Graph)
+  - Scalable Mapper algorithm (multiscale)
+  - Distributed persistent homology computation
+- **Status**: Development and Proof of Concept
+
+### spark-mapper
+- **Link**: https://github.com/paul-english/spark-mapper
+- **Description**: Spark implementation of the Mapper algorithm
+- **Features**: Estimate low-dimensional simplicial complexes from large datasets
+- **Application**: Analysis of high-dimensional datasets and 3D object recognition
+
+## Bioinformatics Applications
+
+### scTDA
+- **Link**: https://github.com/CamaraLab/scTDA
+- **Description**: Object-oriented Python library for TDA of single-cell RNA-seq data
+- **Features**: Topological representation-based preprocessing, analysis, and exploration
+- **Installation**: `pip install scTDA`
+- **Docker**: `docker pull pcamara/sctda`
+
+### tmap
+- **Documentation**: https://tmap.readthedocs.io/en/latest/
+- **Link**: https://github.com/GPZ-Bioinfo/tmap
+- **Description**: TDA framework for population-scale microbiome data analysis
+- **Features**: 
+  - Implements TDA Mapper algorithm
+  - Enterotype analysis, driver species identification
+  - Microbiome-wide association analysis with host metadata
+
+## Other Tools & Libraries
+
+### Ctl
+- **Link**: https://github.com/appliedtopology/ctl
+- **Description**: C++11 general-purpose tool library
+- **Features**: 
+  - Construct neighborhood graphs and cell complexes
+  - Compute (persistent) homology on finite fields
+  - Parallel homology algorithms
+- **Support**: C++, Python, MATLAB, R
+
+### MoguTDA
+- **Link**: https://github.com/stephenhky/MoguTDA
+- **Description**: Python package containing numerical code for algebraic topology
+- **Background**: From teaching code and blog posts to demonstrate TDA algorithm principles
+- **Content**: Numerical methods for simplicial complexes, homology and Betti number estimation
+
+### OpenTDA
+- **Link**: https://github.com/outlace/OpenTDA
+- **Description**: Open Source Python Library for TDA
+
+### kohonen
+- **Link**: https://github.com/lmjohns3/kohonen
+- **Description**: Basic implementation of Kohonen-style vector quantizers
+- **Includes**: Self-Organizing Maps (SOM), Neural Gas, Growing Neural Gas
+- **Principle**: Uses explicit topology to promote separation between prototype "neurons", used for density estimation and discrete representation
 - **Includes**:
   - ripserr: Vietoris-Rips filtrations
   - Cubical filtrations for raster data
