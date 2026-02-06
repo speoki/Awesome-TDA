@@ -195,9 +195,20 @@ Integrate topological features into neural networks or design topological regula
 - **Features**: Vectorizes diagrams for ML tasks, differentiable
 
 ### pytorch-topological
-- **Link**: https://github.com/aidos-lab/pytorch-topological
-- **Description**: PyTorch topological layer library
-- **Features**: Wasserstein distance, Alpha complex filtrations, various diagram vectorizations
+- **Documentation**: https://pytorch-topological.readthedocs.io/en/latest/
+- **GitHub**: https://github.com/aidos-lab/pytorch-topological
+- **PyPI Page**: https://zread.ai/aidos-lab/pytorch-topological
+- **Description**: A Topological Machine Learning framework for PyTorch.
+- **Core Concept**: Curates loss terms and neural network layers to simplify the construction of next-generation topology-based machine learning tools. Enables leveraging topological features (like connectivity) in datasets, offering a novel perspective distinct from purely geometric views.
+- **References**:
+  - Amézquita et al., "The shape of things to come: Topological data analysis and biology, from molecules to organisms", Developmental Dynamics, 2020.
+  - Hensel et al., "A Survey of Topological Machine Learning Methods", Frontiers in Artificial Intelligence, 2021.
+- **Installation**:
+  - Requirement: Python 3.9 (recommended)
+  - Using poetry: `poetry add torch-topological`
+  - Using pip: `pip install -U torch-topological`
+- **Applications**:
+  - SHAPR: Predicting 3D cell shapes from 2D microscopy images.
 
 ### TopologyLayer
 - **Link**: https://github.com/bruel-gabrielsson/TopologyLayer
